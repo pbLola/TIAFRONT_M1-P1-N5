@@ -41,3 +41,15 @@ body {
   line-height: 1.5;
   padding: var(--space-md);
 }
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  background: linear-gradient(180deg, var(--surface), var(--bg));
+  box-shadow: 6px 6px 12px var(--shadow-dark),
+    -6px -6px 12px var(--shadow-light);
+  position: sticky;
+  top: var(--space-md);
+  backdrop-filter: blur(4px);
+}

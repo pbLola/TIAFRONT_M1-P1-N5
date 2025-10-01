@@ -197,3 +197,10 @@ aside a.card img {
 aside a.card:hover {
   transform: translatex(6px);
 }
+footer {
+  margin-top: var(--space-lg);
+  padding: 12px;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 13px;
+}

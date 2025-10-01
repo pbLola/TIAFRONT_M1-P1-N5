@@ -105,3 +105,18 @@ header + main > article {
   box-shadow: 8px 8px 20px var(--shadow-dark),
     -8px -8px 20px var(--shadow-light);
 }
+h1 {
+  font-size: 32px;
+  margin: 0 0 8px;
+  color: var(--text-strong);
+}
+.meta {
+  font-size: 13px;
+  color: var(--text-muted);
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.meta time {
+  font-variant-numeric: tabular-nums;
+}

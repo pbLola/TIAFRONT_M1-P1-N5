@@ -39,13 +39,13 @@ TIA_FRONTEND_M1_P1_N5-pagina-noticia/
 
 ---
 
-## Feedback pós finalização
+## Correções e Feedback
 
----
-
-## Correções sugeridas
-
-## Melhorias pós feedback
+- Adicionar foco visível em botões e links para acessibilidade.
+- Incluir prefers-reduced-motion para usuários com restrição de movimento.
+- Separar CSS em styles.css (melhor organização).
+- Melhorar contraste em alguns textos para maior legibilidade.
+- Expandir uso de microdados Schema.org para SEO avançado.
 
 ## 📝 Licença
 

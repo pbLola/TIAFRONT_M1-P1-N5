@@ -41,7 +41,7 @@ body {
   line-height: 1.5;
   padding: var(--space-md);
 }
-header {
+body > header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -52,6 +52,12 @@ header {
   position: sticky;
   top: var(--space-md);
   backdrop-filter: blur(4px);
+  z-index: 1000;
+  top: 0;
+}
+article > header {
+  position: static; /* volta ao normal */
+  margin-bottom: var(--space-lg);
 }
 .brand {
   display: flex;
@@ -67,7 +73,7 @@ header {
   font-size: 18px;
   color: var(--text-strong);
 }
-.site.slogan {
+.site-slogan {
   font-size: 12px;
   color: var(--text-muted);
 }
@@ -84,7 +90,7 @@ nav[aria-label="menu-principal"] a {
   border-radius: 12px;
   font-size: 14px;
   color: var(--text-muted);
-  transition: transform 0.18s ease, color 18s ease;
+  transition: transform 0.18s ease, color 0.18s ease;
 }
 nav[aria-label="menu-principal"] a:hover {
   transform: translateY(-2px);
@@ -134,7 +140,7 @@ figure img {
 figure img:hover {
   transform: scale(1.02);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
-  border-color: rgba(2500, 140, 66, 0.12);
+  border-color: rgba(255, 140, 66, 0.12);
 }
 figcaption {
   font-size: 12px;
@@ -215,4 +221,23 @@ footer {
   aside[role="complementary"] {
     grid-column: 2;
   }
+}
+.muted {
+  color: var(--text-muted);
+}
+.kicker {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-teal);
+  font-weight: 700;
+}
+a.inline {
+  color: var(--color-accent);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 140, 66, 0.12);
+  transition: transform 0.14s ease;
+}
+a.inline:hover {
+  transform: translateY(-2px);
 }

@@ -1,5 +1,7 @@
 # Projeto: M1P1N5 — Página de notícia completa com estilo e SEO básico
 
+![Print do Projeto](assets/img/screenshot.png)
+
 ## Descrição do projeto (para o repositório no GitHub)
 
 Projeto final do módulo 1 (Fundamentos) do TIA Frontend. Objetivo: construir

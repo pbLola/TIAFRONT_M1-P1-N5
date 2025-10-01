@@ -204,3 +204,15 @@ footer {
   color: var(--text-muted);
   font-size: 13px;
 }
+@media (min-width: 900px) {
+  main {
+    grid-template-columns: 3fr 1fr;
+    align-items: start;
+  }
+  article {
+    grid-column: 1;
+  }
+  aside[role="complementary"] {
+    grid-column: 2;
+  }
+}
